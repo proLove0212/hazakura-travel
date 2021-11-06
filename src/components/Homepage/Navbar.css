@@ -1,4 +1,9 @@
 .headers {
   display: flex;
+  padding-top: 20px;
+  width: 800px;
+  margin-right: 100px;
+  font-size: 150%;
+  float: right;
   justify-content: space-between;
 }
