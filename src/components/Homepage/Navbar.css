@@ -1,9 +1,20 @@
+.navbar-container {
+  /* border-bottom: 2px solid white; */
+  /* position: relative; */
+  display: flex;
+  height: 75px;
+}
+
 .headers {
   display: flex;
-  padding-top: 20px;
   width: 800px;
-  margin-right: 100px;
   font-size: 150%;
-  float: right;
   justify-content: space-between;
+  margin-left: 800px;
+  border-bottom: 2px solid white;
+  
 }
+
+  /* position: absolute;
+  right: 0;
+  padding-right: 120px; */

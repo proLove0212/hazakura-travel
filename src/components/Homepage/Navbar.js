@@ -1,9 +1,12 @@
 import "./Navbar.css";
+import HazakuraLogo from "../../icon-components/HazakuraLogo";
 
 function Navbar() {
   return (
     <>
-      <div className="headers-container">
+      <div className="navbar-container">
+        <div className='gap'></div>
+        <HazakuraLogo />
         <div className="headers">
           <p>Kyoto</p>
           <p>Destination</p>
