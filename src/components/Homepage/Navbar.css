@@ -1,18 +1,30 @@
 .navbar-container {
-  /* border-bottom: 2px solid white; */
-  /* position: relative; */
   display: flex;
-  height: 75px;
+  height: 100px;
+}
+
+.gap {
+  width: 100px;
+  margin-right: 100px;
+  border-bottom: 2px solid white;
+}
+
+.svg {
+  display: flex;
+  align-self: end;
 }
 
 .headers {
   display: flex;
-  width: 800px;
-  font-size: 150%;
   justify-content: space-between;
-  margin-left: 800px;
-  border-bottom: 2px solid white;
-  
+  flex: 10;
+  margin-left: 100px;
+  padding-left: 800px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+  font-size: 200%;
+  border-bottom: 2px solid white;  
+  /* background-color: rgb(204, 32, 56) */
 }
 
   /* position: absolute;
