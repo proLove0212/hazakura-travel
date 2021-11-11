@@ -31,7 +31,10 @@ function HazakuraLogo() {
         <g fill="rgb(254, 32, 56)">
           <path d="M86,14.33333c-39.58041,0 -71.66667,32.08626 -71.66667,71.66667c0,39.58041 32.08626,71.66667 71.66667,71.66667c39.58041,0 71.66667,-32.08626 71.66667,-71.66667c0,-39.58041 -32.08626,-71.66667 -71.66667,-71.66667z"></path>
         </g>
-        <text x="50" y="86" style={{ fill: "white" }}>Hazakura Travel</text>
+        <text x="55" y="70" style={{ fill: "white" }}>
+          <tspan x="3em">Hazakura</tspan>
+          <tspan x="3em" dy="1em">Travel</tspan>
+          </text>
       </g>
     </svg>
     // <svg height="100" width="100">
