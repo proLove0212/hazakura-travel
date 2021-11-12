@@ -2,3 +2,14 @@ body {
   background-image: url(../../images/kiyomizu-dera.jpg);
   background-size: cover;
 }
+
+span.kanji {
+  font-family: 'Sawarabi Mincho', sans-serif;
+  writing-mode: vertical-rl;
+  font-size: 15rem;
+  position: relative;
+  /* top: 125px; */
+  left: 150px;
+  display: flex;
+  align-items: center;
+}

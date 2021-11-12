@@ -3,7 +3,7 @@
   height: 200px;
   display: flex;
   justify-content: center;
-  font-size: 300%;
+  font-size: 3rem;
   align-items: center;
 }
 
@@ -15,10 +15,4 @@ svg {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* margin-top: 3em; */
-  /* position: relative; */
 }
-
-/* .logo-name span {
-
-} */

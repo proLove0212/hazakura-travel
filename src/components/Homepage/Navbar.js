@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <>
       <div className="navbar-container">
-        <div className='gap'></div>
+        <div className="gap"></div>
         <HazakuraLogo />
         <div className="headers">
           <p>Kyoto</p>
