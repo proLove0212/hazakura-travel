@@ -5,8 +5,8 @@
 
 .gap {
   width: 100px;
-  margin-right: 100px;
-  border-bottom: 2px solid white;
+  margin-right: 80px;
+  border-bottom: 1px solid white;
 }
 
 .svg {
@@ -18,15 +18,10 @@
   display: flex;
   justify-content: space-between;
   flex: 10;
-  margin-left: 100px;
+  margin-left: 80px;
   padding-left: 800px;
   padding-right: 100px;
   padding-bottom: 50px;
   font-size: 200%;
-  border-bottom: 2px solid white;  
-  /* background-color: rgb(204, 32, 56) */
+  border-bottom: 1px solid white;  
 }
-
-  /* position: absolute;
-  right: 0;
-  padding-right: 120px; */

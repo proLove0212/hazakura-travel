@@ -2,6 +2,7 @@ import "./HazakuraLogo.css";
 
 function HazakuraLogo() {
   return (
+    <div class="test">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       x="0px"
@@ -11,6 +12,7 @@ function HazakuraLogo() {
       viewBox="0 0 172 172"
       style={{ fill: "rgb(254, 32, 56)" }}
     >
+      
       <g
         fill="none"
         fill-rule="nonzero"
@@ -21,31 +23,31 @@ function HazakuraLogo() {
         stroke-miterlimit="10"
         stroke-dasharray=""
         stroke-dashoffset="0"
-        font-family="none"
+        font-family="Lora"
         font-weight="none"
-        font-size="none"
-        text-anchor="none"
+        font-size="250%"
+        text-anchor="middle"
         style={{ "mix-blend-mode": "normal" }}
       >
         <path d="M0,172v-172h172v172z" fill="none"></path>
         <g fill="rgb(254, 32, 56)">
           <path d="M86,14.33333c-39.58041,0 -71.66667,32.08626 -71.66667,71.66667c0,39.58041 32.08626,71.66667 71.66667,71.66667c39.58041,0 71.66667,-32.08626 71.66667,-71.66667c0,-39.58041 -32.08626,-71.66667 -71.66667,-71.66667z"></path>
         </g>
-        <text x="55" y="70" style={{ fill: "white" }}>
-          <tspan x="3em">Hazakura</tspan>
-          <tspan x="3em" dy="1em">Travel</tspan>
-          </text>
+        {/* <text x="55" y="70" style={{ fill: "white" }}>
+          <tspan x="1em">Hazakura</tspan>
+          <tspan x="1em" dy="1.25em">Travel ❀ 葉桜</tspan>
+        </text> */}
+        {/* <text x="55" y="70" style={{ fill: "white" }}>
+          <tspan x="3.65em">Hazakura</tspan>
+          <tspan x="3.65em" dy="1.25em">Travel ❀ 葉桜</tspan>
+        </text> */}
       </g>
     </svg>
-    // <svg height="100" width="100">
-    //   <circle
-    //     cx="50"
-    //     cy="50"
-    //     r="40"
-    //     fill="rgb(304, 32, 56)"
-    //   />
-    // c
-    // </svg>
+    <div className="logo-name">
+    <span>Hazakura</span>
+    <span>Travel ❀ 葉桜</span>
+    </div>
+    </div>
   );
 }
 
