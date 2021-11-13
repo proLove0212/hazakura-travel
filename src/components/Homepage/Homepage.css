@@ -30,5 +30,28 @@ span.kanji {
 
 p span {
   display: block;
+}
+
+p.subtitle {
   font-size: 4rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+
+.subtitle1 {
+  margin-left: 2em;
+} 
+
+.subtitle2 {
+  margin-left: 5em;
+  margin-bottom: 1em;
+} 
+
+.kyoto-info {
+  font-size: 2rem;
+}
+
+.kyoto-info span {
+  margin-top: .5em;
 }

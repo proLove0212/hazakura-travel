@@ -10,7 +10,17 @@ function Homepage() {
         <p className="title">Kyoto</p>
         {/* <p className="sub-title">Ancient Traditions</p>
         <p className="sub-title">in modern reflections</p> */}
-        <p><span>Ancient Traditions</span><span>in modern reflections</span></p>
+        <p className="subtitle">
+          <span className="subtitle1">Ancient Traditions</span>
+          <span className="subtitle2">in modern reflections</span>
+        </p>
+        <p className="kyoto-info">
+          <span>Kyoto is a magical city like nowhere else.</span>
+          <span>As an imperial capital of Japan for over 1000 years (until 1868),</span>
+          <span>it's the heart of Japanese culture.</span>
+          <span>Kyoto is Japan in a nutshell. It's the cultural and historical heart</span>
+          <span>of the country.</span>
+        </p>
       </div>
     </>
   );
