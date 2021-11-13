@@ -6,6 +6,9 @@ function Homepage() {
     <>
       <Navbar />
       <span className="kanji">京都市</span>
+      <div className="text-container">
+        <span className="title">Kyoto</span>
+      </div>
     </>
   )
 }
