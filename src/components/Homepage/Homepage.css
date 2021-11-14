@@ -4,28 +4,30 @@ body {
 }
 
 span.kanji {
-  font-family: 'Sawarabi Mincho', sans-serif;
+  font-family: "Sawarabi Mincho", sans-serif;
   writing-mode: vertical-rl;
   text-orientation: upright;
-  font-size: 17rem;
+  font-size: 16rem;
   position: absolute;
-  left: 0.38em;
+  left: 0.44em;
   top: 0.1em;
   text-align: center;
-  opacity: 55%;
+  opacity: 50%;
+  letter-spacing: 2rem;
 }
 
 .text-container {
-  margin-left: 32em;
+  margin-left: 38em;
 }
 
-.text-container .title{
-  color:#FE2038;
+.text-container .title {
+  color: #fe2036;
+  opacity: 85%;
   font-size: 10rem;
-  font-family: 'Teko', sans-serif;
+  font-family: "Teko", sans-serif;
   margin-top: 0px;
   margin-bottom: 0px;
-  height: 225px;
+  height: 200px;
 }
 
 p span {
@@ -36,22 +38,21 @@ p.subtitle {
   font-size: 4rem;
   margin-top: 0px;
   margin-bottom: 0px;
-
 }
 
 .subtitle1 {
   margin-left: 2em;
-} 
+}
 
 .subtitle2 {
   margin-left: 5em;
-  margin-bottom: 1em;
-} 
+  margin-bottom: 0.75em;
+}
 
 .kyoto-info {
-  font-size: 2rem;
+  font-size: 1.75rem;
 }
 
 .kyoto-info span {
-  margin-top: .5em;
+  margin-top: 0.5em;
 }

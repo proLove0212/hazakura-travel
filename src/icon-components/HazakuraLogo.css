@@ -10,6 +10,7 @@
 svg {
   position: absolute;
   z-index: -1;
+  opacity: 90%;
 }
 .logo-name {
   display: flex;

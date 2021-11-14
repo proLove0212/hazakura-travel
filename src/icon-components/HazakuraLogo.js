@@ -10,7 +10,7 @@ function HazakuraLogo() {
         width="200"
         height="200"
         viewBox="0 0 172 172"
-        style={{ fill: "rgb(254, 32, 56)" }}
+        style={{ fill: "#fe2036", opacity:"90%" }}
       >
         <g
           fill="none"
@@ -29,7 +29,8 @@ function HazakuraLogo() {
           style={{ "mix-blend-mode": "normal" }}
         >
           <path d="M0,172v-172h172v172z" fill="none"></path>
-          <g fill="rgb(254, 32, 56)">
+          <g fill="#fe2036" opacity="90%">
+          {/* rgb(254, 32, 56) fe2036ed*/}
             <path d="M86,14.33333c-39.58041,0 -71.66667,32.08626 -71.66667,71.66667c0,39.58041 32.08626,71.66667 71.66667,71.66667c39.58041,0 71.66667,-32.08626 71.66667,-71.66667c0,-39.58041 -32.08626,-71.66667 -71.66667,-71.66667z"></path>
           </g>
         </g>
