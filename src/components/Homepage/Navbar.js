@@ -8,7 +8,7 @@ function Navbar() {
       <div className="navbar-container">
         <div className="gap"></div>
         <HazakuraLogo />
-        <div className="headers">
+        <div className="header-container">
           <Header name="Kyoto" />
           <Header name="Destination" />
           <Header name="Hotel" />

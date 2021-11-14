@@ -1,12 +1,15 @@
 import "./Homepage.css";
 import Navbar from "./Navbar";
+import Button from "./Button";
+
+// animation game plan: when scroll to new page, text delays and then gets stamped on
 
 function Homepage() {
   return (
     <>
       <Navbar />
       <span className="kanji">京都市</span>
-      <div className="text-container">
+      <div className="hero-container">
         <p className="title">Kyoto</p>
         <p className="subtitle">
           <span className="subtitle1">Ancient traditions</span>
@@ -19,6 +22,9 @@ function Homepage() {
           <span>Kyoto is Japan in a nutshell. It's the cultural and historical heart</span>
           <span>of the country.</span>
         </p>
+      <div className="links">
+        <Button text="Visit the City" />
+      </div>
       </div>
     </>
   );

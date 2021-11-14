@@ -1,9 +1,9 @@
-import "./Header.scss";
+import "./Header.css";
 
 function Header({ name }) {
   return (
     <>
-      <span className="raise">{name}</span>
+      <span className="header">{name}</span>
     </>
   );
 }

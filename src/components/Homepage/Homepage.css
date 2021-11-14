@@ -16,11 +16,13 @@ span.kanji {
   letter-spacing: 2rem;
 }
 
-.text-container {
+.hero-container {
+  display: flex;
+  flex-direction: column;
   margin-left: 38em;
 }
 
-.text-container .title {
+.hero-container .title {
   color: #fe2036;
   opacity: 85%;
   font-size: 10rem;
@@ -51,8 +53,13 @@ p.subtitle {
 
 .kyoto-info {
   font-size: 1.75rem;
+  margin-top: 0em;
 }
 
 .kyoto-info span {
   margin-top: 0.5em;
+}
+
+.links {
+  margin-top: 1em;
 }

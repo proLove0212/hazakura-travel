@@ -14,7 +14,7 @@
   align-self: end;
 }
 
-.headers {
+.header-container {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -22,7 +22,6 @@
   margin-left: 80px;
   padding-left: 800px;
   padding-right: 100px;
-  /* padding-bottom: 1em; */
   font-size: 200%;
   border-bottom: 1px solid white;  
 }
