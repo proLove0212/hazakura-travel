@@ -1,0 +1,25 @@
+.raise {
+  padding-bottom: 0.5em;
+}
+
+span.raise {
+  /* you can change these variables to control the border */
+  --border-color: white;
+  --border-width: 5px;
+  --bottom-distance: 0px;
+  
+  display: inline-block;
+  background-image: linear-gradient(var(--border-color), var(--border-color));
+  background-size: 0% var(--border-width);
+  background-repeat: no-repeat;
+  transition: background-size 0.3s;
+  margin: 5px 0;
+}
+
+.raise {
+  background-position: 50% calc(100% - var(--bottom-distance));
+}
+
+span.raise:hover {
+  background-size: 100% var(--border-width);
+}
