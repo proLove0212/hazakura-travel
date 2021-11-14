@@ -2,7 +2,7 @@ import "./HazakuraLogo.css";
 
 function HazakuraLogo() {
   return (
-    <div class="logo-container">
+    <div className="logo-container">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         x="0px"
@@ -14,19 +14,19 @@ function HazakuraLogo() {
       >
         <g
           fill="none"
-          fill-rule="nonzero"
+          fillRule="nonzero"
           stroke="none"
-          stroke-width="1"
-          stroke-linecap="butt"
-          stroke-linejoin="miter"
-          stroke-miterlimit="10"
-          stroke-dasharray=""
-          stroke-dashoffset="0"
-          font-family="Lora"
-          font-weight="none"
-          font-size="250%"
-          text-anchor="middle"
-          style={{ "mix-blend-mode": "normal" }}
+          strokeWidth="1"
+          strokeLinecap="butt"
+          strokeLinejoin="miter"
+          strokeMiterlimit="10"
+          strokeDasharray=""
+          strokeDashoffset="0"
+          fontFamily="Lora"
+          fontWeight="none"
+          fontSize="250%"
+          textAnchor="middle"
+          style={{ "mixBlendMode": "normal" }}
         >
           <path d="M0,172v-172h172v172z" fill="none"></path>
           <g fill="#fe2036" opacity="90%">
