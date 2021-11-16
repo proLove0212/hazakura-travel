@@ -61,5 +61,15 @@ p.subtitle {
 }
 
 .links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   margin-top: 1em;
+  width: 50em;
+}
+
+.watch-video {
+  display: flex;
+  justify-content: flex-end;
+  width: 10em;
 }

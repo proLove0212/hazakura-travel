@@ -1,8 +1,9 @@
 .button {
-  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: white;
+  border-radius: 5px;
   font-size: 1.75rem;
   height: 2.5em;
   width: 7em;
