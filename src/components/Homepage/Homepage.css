@@ -1,6 +1,8 @@
-body {
+.homepage {
   background-image: url(../../images/kiyomizu-dera.jpg);
   background-size: cover;
+  height: 100vh;
+  z-index: -1;
 }
 
 span.kanji {

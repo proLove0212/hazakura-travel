@@ -1,3 +1,4 @@
 .kyoto-container {
-  background-color: linear-gradient(to left, #ff0000 50%, #0000ff 50%);
+  display: flex;
+  color: black;
 }

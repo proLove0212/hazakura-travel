@@ -3,7 +3,8 @@ import "./Kyoto.css";
 function Kyoto() {
   return (
     <div className="kyoto-container">
-      <p>hello</p>
+      <p>DOWN HEREEEE</p>
+      <h1>test</h1>
     </div>
   )
 }

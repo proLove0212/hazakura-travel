@@ -7,7 +7,7 @@ import PlayIcon from "../../icon-components/PlayIcon";
 
 function Homepage() {
   return (
-    <>
+    <div className="homepage">
       <Navbar />
       <span className="kanji">京都市</span>
       <div className="hero-container">
@@ -35,7 +35,7 @@ function Homepage() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
