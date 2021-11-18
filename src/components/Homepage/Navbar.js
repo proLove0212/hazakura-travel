@@ -1,5 +1,5 @@
 import "./Navbar.css";
-import HazakuraLogo from "../../icon-components/HazakuraLogo";
+import HazakuraLogo from "../Icons/HazakuraLogo";
 import Header from "./Header";
 
 function Navbar() {
@@ -13,9 +13,6 @@ function Navbar() {
           <Header name="Destination" />
           <Header name="Hotel" />
           <Header name="Contacts" />
-          {/* <p>Destination</p>
-          <p>Hotel</p>
-          <p>Contacts</p> */}
         </div>
       </div>
     </>

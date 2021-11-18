@@ -1,7 +1,7 @@
 import "./Homepage.css";
 import Navbar from "./Navbar";
 import Button from "./Button";
-import PlayIcon from "../../icon-components/PlayIcon";
+import PlayIcon from "../Icons/PlayIcon";
 
 // animation game plan: when scroll to new page, text delays and then gets stamped on
 

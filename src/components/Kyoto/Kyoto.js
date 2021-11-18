@@ -1,10 +1,10 @@
 import "./Kyoto.css";
+import PageHeader from "../Common/PageHeader";
 
 function Kyoto() {
   return (
     <div className="kyoto-container">
-      <p>DOWN HEREEEE</p>
-      <h1>test</h1>
+      <PageHeader header1="golden shadow"/>
     </div>
   )
 }
