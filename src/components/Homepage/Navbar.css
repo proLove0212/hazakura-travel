@@ -1,6 +1,7 @@
 .navbar-container {
   display: flex;
   height: 100px;
+  margin-top: 1.5em;
 }
 
 .gap {
