@@ -1,10 +1,11 @@
 import "./PageHeader.css";
 
-function PageHeader({ header1 }) {
+function PageHeader({ header1, title }) {
   return (
-    <>
-      <span>{header1}</span>
-    </>
+    <div className="page-header">
+      <span className="header-1">{header1}</span>
+      <span className="title">{title}</span>
+    </div>
   );
 }
 

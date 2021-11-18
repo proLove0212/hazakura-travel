@@ -1,0 +1,15 @@
+.page-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 5em;
+}
+
+span.header-1 {
+  font-size: 1.75rem;
+}
+
+span.title {
+  font-size: 8rem;
+  font-family: "Teko", sans-serif;
+}
