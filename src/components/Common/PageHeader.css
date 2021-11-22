@@ -1,8 +1,16 @@
+.page-info {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  height: 50em;
+  width: 50em;
+}
+
 .page-header {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  height: 5em;
+  /* justify-content: space-between; */
+  /* height: 100%; */
 }
 
 span.header-1 {
@@ -12,4 +20,9 @@ span.header-1 {
 span.title {
   font-size: 8rem;
   font-family: "Teko", sans-serif;
+}
+
+p.paragraph {
+  display: flex;
+  font-size: 1.75rem;
 }
