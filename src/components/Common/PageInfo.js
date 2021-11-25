@@ -1,6 +1,6 @@
-import "./PageHeader.css";
+import "./PageInfo.css";
 
-function PageHeader({ header1, title, paragraph1, paragraph2 }) {
+function PageInfo({ header1, title, paragraph1, paragraph2 }) {
   return (
     <div className="page-info">
       <div className="page-header">
@@ -13,4 +13,4 @@ function PageHeader({ header1, title, paragraph1, paragraph2 }) {
   );
 }
 
-export default PageHeader;
+export default PageInfo;

@@ -1,5 +1,7 @@
 import "./Kyoto.css";
-import PageHeader from "../Common/PageHeader";
+import PageInfo from "../Common/PageInfo";
+import CornerImage from "../Common/CornerImage";
+import geisha from "../../images/geisha.jpg";
 
 function Kyoto() {
   const paragraph1 =
@@ -11,13 +13,14 @@ function Kyoto() {
   return (
     <div className="kyoto-container">
       <div className="text-container">
-        <PageHeader
+        <PageInfo
           header1="GOLDEN SHADOW"
           title="Kyoto"
           paragraph1={paragraph1}
           paragraph2={paragraph2}
         />
       </div>
+      <CornerImage image={geisha}/>
     </div>
   );
 }
