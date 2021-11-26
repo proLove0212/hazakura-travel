@@ -20,7 +20,9 @@ function Kyoto() {
           paragraph2={paragraph2}
         />
       </div>
-      <CornerImage image={geisha}/>
+      <div className="corner-container">
+        <CornerImage image={geisha} />
+      </div>
     </div>
   );
 }

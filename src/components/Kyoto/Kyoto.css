@@ -3,6 +3,7 @@
   height: 100vh;
   background: linear-gradient(90deg, #c4c4c4 55%, #9C9686 45%);
   color: #401F20;
+  position: relative;
 }
 
 /* .text-container {
