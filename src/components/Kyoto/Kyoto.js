@@ -1,7 +1,6 @@
 import "./Kyoto.css";
 import PageInfo from "../Common/PageInfo";
 import CornerImage from "../Common/CornerImage";
-// import geisha from "../../images/geisha.jpg";
 import fujiden from "../../images/fujiden.jpg"
 
 function Kyoto() {
@@ -21,9 +20,7 @@ function Kyoto() {
           paragraph2={paragraph2}
         />
       </div>
-      <div className="corner-container">
         <CornerImage image={fujiden} />
-      </div>
     </div>
   );
 }
