@@ -2,10 +2,10 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 50em;
-  width: 50em;
+  height: 45em;
+  width: 40em;
   margin-top: 7em;
-  margin-left: 7em;
+  margin-left: 10em;
 }
 
 .page-header {
@@ -24,6 +24,6 @@ span.title {
 
 p.paragraph {
   display: flex;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   line-height: 1.75;
 }
