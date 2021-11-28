@@ -1,0 +1,60 @@
+.corner-image {
+  display: flex;
+  align-items: flex-end;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.corner-image img {
+  height: 400px;
+  width: 800px;
+}
+
+.redirect {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.redirect span {
+  display: flex;
+  margin-left: 30px;
+  font-size: 1.5rem;
+}
+
+.redirect-button {
+  display: flex;
+  // justify-content: space-between;
+  align-items: center;
+  height: 75px;
+  width: 275px;
+  background-color: #9c9686;
+}
+
+svg#right {
+  margin-left: 175px;
+  height: 22px;
+  width: 100px;
+  opacity: 0.5;
+  transition: 250ms all ease;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  path {
+    transition: 250ms all ease;
+    height: 100%;
+  }
+  &:hover {
+    opacity: 1;
+  }
+}
+
+svg#right:hover path {
+  d: path(
+    "M0 9.35772H50.9956L44.2001 2.29941L46.4134 0L57 11L46.4134 22L44.2001 19.7006L50.9956 12.6423H0V9.35772Z"
+  );
+  d: path(
+    "M0 9.35772H50.9956L44.2001 2.29941L46.4134 0L57 11L46.4134 22L44.2001 19.7006L50.9956 12.6423H0V9.35772Z"
+  );
+}
