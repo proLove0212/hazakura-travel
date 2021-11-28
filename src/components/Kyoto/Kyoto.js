@@ -1,7 +1,9 @@
 import "./Kyoto.css";
 import PageInfo from "../Common/PageInfo";
 import CornerImage from "../Common/CornerImage";
-import fujiden from "../../images/fujiden.jpg"
+import RightSection from "../Common/RightSection";
+import Fujiden from "../../images/fujiden.jpg";
+import KyotoStreet from "../../images/kyoto-street.jpg";
 
 function Kyoto() {
   const paragraph1 =
@@ -20,7 +22,8 @@ function Kyoto() {
           paragraph2={paragraph2}
         />
       </div>
-        <CornerImage image={fujiden} text={'Read More'}/>
+      <CornerImage image={Fujiden} text={"Read More"} />
+      <RightSection image={KyotoStreet} />
     </div>
   );
 }
