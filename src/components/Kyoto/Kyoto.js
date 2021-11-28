@@ -20,7 +20,7 @@ function Kyoto() {
           paragraph2={paragraph2}
         />
       </div>
-        <CornerImage image={fujiden} />
+        <CornerImage image={fujiden} text={'Read More'}/>
     </div>
   );
 }
