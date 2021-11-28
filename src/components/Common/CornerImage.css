@@ -23,7 +23,23 @@
 }
 
 .redirect-button {
+  display: flex;
   height: 75px;
   width: 275px;
   background-color: #9C9686;
+}
+
+.line {
+  margin-top: 14px;
+  width: 90px;
+  background: white;
+  height: 10px;
+}
+
+.point {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 20px solid white;
 }
