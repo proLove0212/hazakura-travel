@@ -74,4 +74,5 @@ p.subtitle {
   justify-content: space-between;
   width: 10em;
   font-size: 1.75rem;
+  cursor: pointer;
 }
