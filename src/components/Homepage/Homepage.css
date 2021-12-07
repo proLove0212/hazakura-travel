@@ -4,19 +4,6 @@
   height: 100vh;
 }
 
-/* span.kanji {
-  font-family: "Sawarabi Mincho", sans-serif;
-  writing-mode: vertical-rl;
-  text-orientation: upright;
-  font-size: 16rem;
-  position: absolute;
-  left: 0.44em;
-  top: 0.1em;
-  text-align: center;
-  opacity: 40%;
-  letter-spacing: 2rem;
-} */
-
 .hero-container {
   display: flex;
   flex-direction: column;
