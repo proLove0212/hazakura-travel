@@ -2,6 +2,7 @@ import "./Homepage.css";
 import Navbar from "./Navbar";
 import Button from "./Button";
 import PlayIcon from "../Icons/PlayIcon";
+import Kanji from "../Common/Kanji";
 
 // animation game plan: when scroll to new page, text delays and then gets stamped on
 
@@ -9,7 +10,8 @@ function Homepage() {
   return (
     <div className="homepage">
       <Navbar />
-      <span className="kanji">京都市</span>
+      <Kanji className={"home"} text={"京都市"} />
+      {/* <span className="kanji">京都市</span> */}
       <div className="hero-container">
         <p className="title">Kyoto</p>
         <p className="subtitle">

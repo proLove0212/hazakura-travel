@@ -4,7 +4,7 @@
   height: 100vh;
 }
 
-span.kanji {
+/* span.kanji {
   font-family: "Sawarabi Mincho", sans-serif;
   writing-mode: vertical-rl;
   text-orientation: upright;
@@ -15,7 +15,7 @@ span.kanji {
   text-align: center;
   opacity: 40%;
   letter-spacing: 2rem;
-}
+} */
 
 .hero-container {
   display: flex;
