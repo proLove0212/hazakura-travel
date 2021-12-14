@@ -1,7 +1,6 @@
 span.kanji-home {
   font-family: "Sawarabi Mincho", sans-serif;
   writing-mode: vertical-rl;
-  /* text-orientation: upright; */
   font-size: 16rem;
   position: absolute;
   left: 0.44em;
@@ -15,11 +14,10 @@ span.kanji-red-京都市 {
   font-family: "Sawarabi Mincho", sans-serif;
   writing-mode: vertical-rl;
   text-orientation: upright;
-
-  margin: 0;
+  line-height: 0;
+  margin-top: 1em;
   font-size: 10rem;
   position: absolute;
-  /* margin-left: 0px; */
   text-align: center;
   color: #CF2B48;
   letter-spacing: 2rem;

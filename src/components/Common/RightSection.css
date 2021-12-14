@@ -1,11 +1,11 @@
 .right-section {
   position: absolute;
   display: flex;
-  align-items: flex-start;
+  /* align-items: flex-start; */
   right: 0px;
   bottom: 0px;
   width: 75em;
-  height: 75em;
+  height: 77em;
 }
 
 .right-section img {
