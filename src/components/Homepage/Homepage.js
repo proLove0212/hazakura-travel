@@ -11,7 +11,6 @@ function Homepage() {
     <div className="homepage">
       <Navbar />
       <Kanji className={"home"} text={"京都市"} />
-      {/* <span className="kanji">京都市</span> */}
       <div className="hero-container">
         <p className="title">Kyoto</p>
         <p className="subtitle">

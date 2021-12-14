@@ -6,6 +6,8 @@
   width: 40em;
   margin-top: 7em;
   margin-left: 10em;
+  color: #401F20;
+  row-gap: 0;
 }
 
 .page-header {
@@ -20,6 +22,7 @@ span.header-1 {
 span.title {
   font-size: 8rem;
   font-family: "Teko", sans-serif;
+  width: 7em;
 }
 
 p.paragraph {
