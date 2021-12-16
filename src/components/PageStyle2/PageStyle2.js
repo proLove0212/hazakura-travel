@@ -1,15 +1,17 @@
 import PageInfo from "../Common/PageInfo";
-import './PageStyle2.css'
+import "./PageStyle2.css";
+import Text from "../../text/text.json";
 
-function PageStyle2({header1, title}) {
-
-const paragraph1 = "There are so many things to do in Kyoto - you can visit golden temples and vermillion shrines, stroll through Zen rock gardens and swaying bamboo forests, slurp down bowls of ramen and participate in graceful tea ceremonies."
-
+function PageStyle2() {
   return (
     <div className="page-style-2">
-      <PageInfo header1={header1} title={title} paragraph1={paragraph1}/>
+      <PageInfo
+        header1={Text[1].title[0]}
+        title={Text[1].title[1]}
+        paragraph1={Text[2].paragraph[2]}
+      />
     </div>
-  )
+  );
 }
 
 export default PageStyle2;

@@ -8,7 +8,7 @@ function App() {
     <div className="app">
       <Homepage />
       <Kyoto />
-      <PageStyle2 header1="Kyoto" title="IMMORTAL RICHES"/>
+      <PageStyle2 />
     </div>
   );
 }
