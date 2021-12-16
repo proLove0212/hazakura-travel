@@ -4,22 +4,17 @@ import CornerImage from "../Common/CornerImage";
 import RightSection from "../Common/RightSection";
 import Fujiden from "../../images/fujiden.jpg";
 import KyotoStreet from "../../images/kyoto-street.jpg";
+import Text from "../../text/text.json";
 
 function Kyoto() {
-  const paragraph1 =
-    "Kyoto (京都, Kyōto) served as Japan's capital and the emperor's residence from 764 to 1868. It is one of the country's 10 largest cities with a population of 1.5 million and a modern face.";
-
-  const paragraph2 =
-    "Although Kyoto is the centre of traditional Japan, it's also a modern city with concerte high-rises, numerous vending machines, and a vibrant food scene. But it's on a smaller more manageable scale than Tokyo and Osaka with plenty of green spaces, view of surrounding hills, and neighborhoods that feel like villages.";
-
   return (
     <div className="kyoto-container">
       <div className="text-container">
         <PageInfo
-          header1="GOLDEN SHADOW"
-          title="Kyoto"
-          paragraph1={paragraph1}
-          paragraph2={paragraph2}
+          header1={Text[0].header[0]}
+          title={Text[1].title[0]}
+          paragraph1={Text[2].paragraph[0]}
+          paragraph2={Text[2].paragraph[1]}
         />
       </div>
       <CornerImage image={Fujiden} text={"Read More"} />
