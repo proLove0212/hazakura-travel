@@ -15,7 +15,7 @@
   align-self: end;
 }
 
-.header-container {
+.nav-button-container {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;

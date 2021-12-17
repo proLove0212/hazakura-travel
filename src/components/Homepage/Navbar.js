@@ -1,6 +1,6 @@
 import "./Navbar.css";
 import HazakuraLogo from "../Icons/HazakuraLogo";
-import Header from "./Header";
+import NavButton from "./NavButton";
 
 function Navbar() {
   return (
@@ -8,11 +8,11 @@ function Navbar() {
       <div className="navbar-container">
         <div className="gap"></div>
         <HazakuraLogo />
-        <div className="header-container">
-          <Header name="Kyoto" />
-          <Header name="Destination" />
-          <Header name="Hotel" />
-          <Header name="Contacts" />
+        <div className="nav-button-container">
+          <NavButton name="Kyoto" />
+          <NavButton name="Destination" />
+          <NavButton name="Hotel" />
+          <NavButton name="Contacts" />
         </div>
       </div>
     </>
