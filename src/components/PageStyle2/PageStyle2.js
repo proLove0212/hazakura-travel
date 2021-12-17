@@ -6,7 +6,8 @@ function PageStyle2() {
   return (
     <div className="page-style-2">
       <PageInfo
-        header1={Text[1].title[0]}
+        header1={Text[0].header[1]}
+        header2={Text[0].header[2]}
         title={Text[1].title[1]}
         paragraph1={Text[2].paragraph[2]}
       />
