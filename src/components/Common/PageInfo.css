@@ -6,7 +6,7 @@
   width: 40em;
   margin-top: 7em;
   margin-left: 10em;
-  color: #401F20;
+  color: #401f20;
 }
 
 .page-header {
@@ -18,10 +18,19 @@ span.header {
   font-size: 1.75rem;
 }
 
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100em;
+}
 span.title {
   font-size: 8rem;
   font-family: "Teko", sans-serif;
   width: 7em;
+}
+
+span.right-title {
+  font-family: "Sawarabi Mincho", sans-serif;
 }
 
 p.paragraph {
@@ -29,3 +38,4 @@ p.paragraph {
   font-size: 1.5rem;
   line-height: 1.75;
 }
+
