@@ -1,6 +1,7 @@
 import "./PageInfo.css";
 
-function PageInfo({ header1, header2, title, paragraph1, paragraph2 }) {
+function PageInfo({ header1, header2, title, paragraph1, paragraph2, style }) {
+  console.log(style)
   return (
     <div className="page-info">
       <div className="page-header">
@@ -12,8 +13,12 @@ function PageInfo({ header1, header2, title, paragraph1, paragraph2 }) {
         )}
         <span className="title">{title}</span>
       </div>
-      <p className="paragraph 1">{paragraph1}</p>
-      {paragraph2 ? <p className="paragraph 2">{paragraph2}</p> : null}
+      <p className="paragraph 1" style={style}>{paragraph1}</p>
+      {paragraph2 ? (
+        <p className="paragraph 2">
+          {paragraph2}
+        </p>
+      ) : null}
     </div>
   );
 }

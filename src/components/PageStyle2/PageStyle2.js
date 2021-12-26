@@ -10,6 +10,7 @@ function PageStyle2() {
         header2={Text[0].header[2]}
         title={Text[1].title[1]}
         paragraph1={Text[2].paragraph[2]}
+        style={{ width: "40em" }}
       />
     </div>
   );
