@@ -1,7 +1,6 @@
 .right-section {
   position: absolute;
   display: flex;
-  /* align-items: flex-start; */
   right: 0px;
   bottom: 0px;
   width: 75em;
@@ -12,4 +11,5 @@
   object-fit: cover;
   width: 100%;
   height: 100%;
+  margin-top: -7em;
 }

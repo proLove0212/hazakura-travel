@@ -4,8 +4,6 @@
   justify-content: space-between;
   height: 25em;
   width: 40em;
-  margin-top: 7em;
-  margin-left: 10em;
   color: #401f20;
 }
 
@@ -21,6 +19,7 @@ span.header {
 .title-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 100em;
 }
 span.title {
@@ -31,6 +30,7 @@ span.title {
 
 span.right-title {
   font-family: "Sawarabi Mincho", sans-serif;
+  font-size: 5rem;
 }
 
 p.paragraph {
