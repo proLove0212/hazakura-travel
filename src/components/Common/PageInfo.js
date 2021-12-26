@@ -13,7 +13,6 @@ function PageInfo({
   return (
     <div className="page-info">
       <div className="page-header">
-        {/* <span className="header-1">{header1}</span> */}
         {header2 ? (
           <span className="header">{`${header1} \u00A0 \u00A0 • \u00A0 \u00A0 ${header2}`}</span>
         ) : (
