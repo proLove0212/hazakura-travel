@@ -15,11 +15,11 @@ function PageStyle2() {
         paragraph1={Text[2].paragraph[2]}
         // p style when no paragraph2
         paragraphStyle={{ width: "40em" }}
-        // info style when rightTitle exists
+        // info style when rightTitle exists to expand to the right
         infoStyle={{ width: "100%" }}
       />
-      <div className="card-container">
-        <Card img={Kinkakuji} alt="Kinkakuji" title="Kinkakuji" text="A Zen Temple in Northern Tokyo whose top 2 floors are completely covered in golden leaf" />
+      <div className="cards-container">
+        <Card img={Kinkakuji} alt="Kinkakuji" title="Kinkakuji" info="A Zen Temple in Northern Tokyo whose top 2 floors are completely covered in golden leaf" />
       </div>
     </div>
   );
