@@ -4,4 +4,5 @@
   padding-left: 10em;
   padding-top: 7em;
   padding-right: 10em;
+  flex-direction: column;
 }

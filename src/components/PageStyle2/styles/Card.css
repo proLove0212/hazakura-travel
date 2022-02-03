@@ -1,0 +1,15 @@
+.card {
+  display: flex;
+  width: 35em;
+  height: 20em;
+}
+
+.text-container {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+/* img.card-image {
+  height: 100px;
+  width: 100px;
+} */

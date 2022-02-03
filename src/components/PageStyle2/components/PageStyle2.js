@@ -1,6 +1,8 @@
-import PageInfo from "../Common/PageInfo";
-import "./PageStyle2.css";
-import Text from "../../text/text.json";
+import PageInfo from "../../Common/PageInfo";
+import "../styles/PageStyle2.css";
+import Text from "../../../text/text.json";
+import Card from "./Card";
+import Kinkakuji from "../../../images/kinkakuji.jpg";
 
 function PageStyle2() {
   return (
@@ -17,7 +19,7 @@ function PageStyle2() {
         infoStyle={{ width: "100%" }}
       />
       <div className="card-container">
-        
+        <Card img={Kinkakuji} alt="Kinkakuji" title="Kinkakuji" text="A Zen Temple in Northern Tokyo whose top 2 floors are completely covered in golden leaf" />
       </div>
     </div>
   );
