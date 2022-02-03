@@ -20,8 +20,8 @@ span.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100em;
 }
+
 span.title {
   font-size: 8rem;
   font-family: "Teko", sans-serif;

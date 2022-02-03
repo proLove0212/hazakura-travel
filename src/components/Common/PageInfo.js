@@ -7,11 +7,11 @@ function PageInfo({
   rightTitle,
   paragraph1,
   paragraph2,
-  style,
+  paragraphStyle,
+  infoStyle,
 }) {
-  console.log(style);
   return (
-    <div className="page-info">
+    <div className="page-info" style={infoStyle}>
       <div className="page-header">
         {header2 ? (
           <span className="header">{`${header1} \u00A0 \u00A0 • \u00A0 \u00A0 ${header2}`}</span>
@@ -27,7 +27,8 @@ function PageInfo({
           <span className="title">{title}</span>
         )}
       </div>
-      <p className="paragraph 1" style={style}>
+      <div className="paragraph-container"></div>
+      <p className="paragraph 1" style={paragraphStyle}>
         {paragraph1}
       </p>
       {paragraph2 ? <p className="paragraph 2">{paragraph2}</p> : null}
