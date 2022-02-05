@@ -3,6 +3,7 @@ import "../styles/PageStyle2.css";
 import Text from "../../../text/text.json";
 import Card from "./Card";
 import Kinkakuji from "../../../images/kinkakuji.jpg";
+import Fushimi from "../../../images/Fushimi Inari Shrine.jpg";
 
 function PageStyle2() {
   return (
@@ -19,7 +20,8 @@ function PageStyle2() {
         infoStyle={{ width: "100%" }}
       />
       <div className="cards-container">
-        <Card img={Kinkakuji} alt="Kinkakuji" title="Kinkakuji" info="A Zen Temple in Northern Tokyo whose top 2 floors are completely covered in golden leaf" />
+        <Card img={Kinkakuji} alt="Kinkakuji" title="Kinkakuji" info="A Zen Temple in Northern Tokyo whose top 2 floors are completely covered in golden leaf." />
+        <Card img={Fushimi} alt="Fushimi" title="Fushimi Inari Shrine" info="The most important of several thousands of shrines dedicated to Inari, the Shinto god of rice." />
       </div>
     </div>
   );
